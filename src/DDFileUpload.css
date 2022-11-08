@@ -1,0 +1,50 @@
+.ddfileupload-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  min-height: 150px;
+  max-height: 350px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  color: #81878f;
+  gap: 5px;
+}
+
+
+#ddfileupload-input-file-upload{
+  display: none;
+}
+
+.ddfileupload-actiongroup{
+  display: flex;
+  gap: 8px;
+  margin: 5px 0px;
+}
+
+.ddfileupload-filename{
+  display: flex;
+  color: rgb(21, 31, 31);
+  max-height: 20px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.ddfileupload-selectbtn{
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.ddfileupload-selectbtn:hover, .ddfileupload-container:hover .ddfileupload-selectbtn{
+  background-color: green;
+  color: rgb(229, 241, 228);
+  border-color: rgba(0, 139, 139, 0.218);
+}
